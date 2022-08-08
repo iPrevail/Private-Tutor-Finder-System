@@ -1,0 +1,32 @@
+{
+  "name": "private-tutor-finder-system",
+  "version": "1.0.0",
+  "description": "creating a private tutor finder system with NodeJS, Express and Mongo DB",
+  "main": "app.js",
+  "start": "app.js",
+  "watch": "nodemon",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iPrevail/Private-Tutor-Finder-System.git"
+  },
+  "author": "iPrevail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iPrevail/Private-Tutor-Finder-System/issues"
+  },
+  "homepage": "https://github.com/iPrevail/Private-Tutor-Finder-System#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "module-exports": "^1.0.0",
+    "mongoose": "^6.5.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^7.1.2"
+  }
+}
